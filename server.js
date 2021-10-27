@@ -33,5 +33,5 @@ mongoose.connect(
 app.use('/',appRoutes);
 
 //Listener
-app.listen(port, () => console.log(`Listening on : http://localhost:8001/${port}`))
+app.listen(port, () => console.log(`Listening on : http://localhost:${port}`))
 

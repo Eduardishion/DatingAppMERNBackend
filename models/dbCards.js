@@ -1,7 +1,10 @@
 const mongoose = require ('mongoose');
-const cardSchema = mongoose.Schema({
-    name: String,
-    imgUrl: String
-})
+const {Schema} = mongoose;
 
-module.exports = mongoose.model('cards', cardSchema)
+const cardSchema= new Schema({
+    name: {type:String,required:true},
+    imgUrl:{type:String,required:true}
+});
+
+
+module.exports = mongoose.model('cards', cardSchema);
