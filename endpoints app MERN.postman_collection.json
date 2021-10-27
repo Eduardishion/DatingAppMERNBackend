@@ -1,0 +1,27 @@
+{
+	"info": {
+		"_postman_id": "37ed00a6-4603-4a99-8624-4137f6122f84",
+		"name": "endpoints app MERN",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get resourses",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "post create  resourse",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		}
+	]
+}
